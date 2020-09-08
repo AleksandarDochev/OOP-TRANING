@@ -3,9 +3,10 @@
 #2/int the folder )       git init
 #3/add the pythone file ) git add 1.py
 #4/do the first commit to local ) git commit -m "First commit"
-#5/add it to git hub repesitory ) git remote add origin remote-repository-URL
-#6/ verifi url )           git remote -v
-#7/Push the changes in your local repository to GitHub.) git push origin master
+#5/git branch -M master
+#6/add it to git hub repesitory )
+#7/$ git remote set-url origin https://github.com/AleksandarDochev/OOP-TRANING.git
+#8/Push the changes in your local repository to GitHub.) git push origin master
 
 
 
