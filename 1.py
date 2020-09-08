@@ -9,6 +9,20 @@
 #8/$ git pull
 #9/Push the changes in your local repository to GitHub.) git push origin master
 
+class Employee:
+    pass
+emp_1 = Employee()
+emp_1.first = 'Corey'  #This is instance variable
+emp_1.last = 'Shafer'   #This is instance variable
+emp_1.email = 'Corey.Shafer@company.com'       #This is instance variable
+emp_1.pay  = 50000
 
+emp_2 = Employee()
+emp_2.first = 'Test'  #This is instance variable
+emp_2.last = 'User'   #This is instance variable but set manualy
+emp_2.email = 'test.user@company.com'       #This is instance variable
+emp_2.pay  = 60000
 
+print(emp_1.email)
+print(emp_2.email)
 
