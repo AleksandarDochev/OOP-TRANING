@@ -27,7 +27,8 @@ class Employee:
 emp_1 = Employee('Corey', 'Schafer', 50000)  #we create the object and we pass in the same information but IN the correct order
 emp_2 = Employee('Test', 'User', 60000)
 
-print (emp_1.fullname())
+#print (emp_1.fullname())
+print (Employee.fullname(emp_1)) #Here we use to call the class "Employee" that has the fullname method and call the instance of emp 1
 
 #this is an example of printing out a employe name manually
 #print ('{} {}'.format(emp_1.first , emp_1.last))
