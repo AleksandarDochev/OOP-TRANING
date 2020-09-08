@@ -20,25 +20,18 @@ class Employee:
               self.pay = pay
               self.email = first + '.' + last + '@company.com'
 
+# and now we create a method in our class that will allow us to use this functionality in one place
+     def fullname(self):
+        return ('{} {}'.format(self.first, self.last))
 
 emp_1 = Employee('Corey', 'Schafer', 50000)  #we create the object and we pass in the same information but IN the correct order
 emp_2 = Employee('Test', 'User', 60000)
 
+print (emp_1.fullname())
 
-
-#this is just a manual example of entering data that is unreliable and slow
-emp_1 = Employee()
-emp_1.first = 'Corey'  #This is instance variable
-emp_1.last = 'Shafer'   #This is instance variable
-emp_1.email = 'Corey.Shafer@company.com'       #This is instance variable
-emp_1.pay  = 50000
-
-emp_2 = Employee()
-emp_2.first = 'Test'  #This is instance variable
-emp_2.last = 'User'   #This is instance variable but set manualy
-emp_2.email = 'test.user@company.com'       #This is instance variable
-emp_2.pay  = 60000
-
-print(emp_1.email)
-print(emp_2.email)
+#this is an example of printing out a employe name manually
+#print ('{} {}'.format(emp_1.first , emp_1.last))
+# and now we create a method in our class that will allow us to use this functionality in one place
+   #  def fullname(self):
+    #    return ('{} {}'.format(self.first, self.last))  ## it goes right ater the def innit
 
