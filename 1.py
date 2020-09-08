@@ -6,7 +6,8 @@
 #5/git branch -M master
 #6/add it to git hub repesitory )
 #7/$ git remote set-url origin https://github.com/AleksandarDochev/OOP-TRANING.git
-#8/Push the changes in your local repository to GitHub.) git push origin master
+#8/$ git pull
+#9/Push the changes in your local repository to GitHub.) git push origin master
 
 
 
